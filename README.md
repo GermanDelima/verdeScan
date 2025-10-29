@@ -1548,6 +1548,6 @@ Este proyecto está bajo la Licencia ISC.
 > "Reciclá hoy, transformá mañana"
 
 📧 **Contrataciones y Consultas**: [verdescan@gmail.com](mailto:verdescan@gmail.com)
-💼 **LinkedIn**: [linkedin.com/in/germandelima](https://www.linkedin.com/in/germandelima)
+💼 **LinkedIn**: [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/josíasgermándelima) 
 💻 **GitHub**: [github.com/GermanDelima](https://github.com/GermanDelima)
 
