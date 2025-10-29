@@ -1,0 +1,130 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+*.pem
+.vscode/
+.idea/
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local env files
+# IMPORTANTE: Nunca subir archivos .env con credenciales reales
+.env
+.env*.local
+.env.development
+.env.production
+
+# claude config files
+.claude
+.claude.json
+settings.local.json
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# PWA files (generados automáticamente por next-pwa)
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+**/public/fallback-*.js
+
+# archivos de sistema
+Thumbs.db
+Desktop.ini
+
+# backups y temporales
+*.bak
+*.tmp
+*.swp
+*~
+
+# logs
+logs/
+*.log
+
+# ============================================
+# ARCHIVOS ESPECÍFICOS DEL PROYECTO
+# ============================================
+
+# Scripts de limpieza y utilidades locales
+clean.bat
+
+# Migraciones obsoletas (archivadas localmente)
+migrations/obsolete/
+
+# Datos de prueba y scripts de diagnóstico (NO subir a producción)
+migrations/supabase-test-data.sql
+migrations/diagnose-and-fix-admin.sql
+migrations/*-local.sql
+migrations/*-dev.sql
+migrations/*-backup-*.sql
+migrations/LIMPIAR_OBSOLETOS.bat
+
+# Documentación duplicada o temporal (mantener solo las versiones en /docs)
+/COMO_ARREGLAR_TACHO_VIRTUAL.md
+/PWA_COMPLETADO.md
+/QUICK_START.md
+
+# Documentación archivada (soluciones temporales ya integradas)
+docs/archive/
+
+# ============================================
+# ARCHIVOS IMPORTANTES (mantener en GitHub)
+# ============================================
+#
+# MIGRACIONES (migrations/):
+# ✅ schema-consolidated.sql - Schema base
+# ✅ create-products-table.sql - Productos
+# ✅ create-tokens-system.sql - Tokens
+# ✅ SETUP_TACHO_VIRTUAL.sql - Tacho virtual
+# ✅ admin-and-staff-accounts.sql - Staff
+# ✅ fix-rls-policies.sql - Políticas RLS
+# ✅ setup-raffles-policies.sql - Sorteos y políticas
+# ✅ 00-SETUP-COMPLETO.sql - Script maestro
+# ✅ README.md - Guía de migraciones
+# ✅ ANALISIS_ARCHIVOS.md - Análisis de limpieza
+#
+# DOCUMENTACIÓN (docs/):
+# ✅ README.md - Índice general
+# ✅ QUICK_START.md - Inicio rápido
+# ✅ ARQUITECTURA.md - Arquitectura
+# ✅ BASE_DE_DATOS.md - Base de datos
+# ✅ GUIA_COMPLETA.md - Guía completa
+# ✅ SCHEMA-CHANGES.md - Cambios de schema
+# ✅ GOOGLE_OAUTH_SETUP.md - OAuth
+# ✅ INSTALACION_GEMINI.md - IA
+# ✅ ADMIN_PANEL.md - Panel admin
+# ✅ PROMOTOR_LOGIN.md - Promotores
+# ✅ TOKENS_SYSTEM.md - Tokens
+# ✅ VIRTUAL_BIN.md - Tacho virtual
+# ✅ SORTEOS-MEJORAS.md - Sorteos
+# ✅ REALTIME_SYNC.md - Sincronización
