@@ -2,6 +2,31 @@
 
 Una **Progressive Web App (PWA)** moderna diseñada para incentivar la economía circular mediante la recompensa por el correcto reciclaje de envases ligeros y aceite de cocina usado (AVU). Diseño UX responsive adaptado a dispositivos móviles y desktop.
 
+IMPACTO REAL
+---
+Si solo 1000 personas en Posadas reciclan 1 lata por día...
+
+→ Son 365,000 latas al año
+
+→ Eso equivale a 5,110 kg de aluminio reciclado
+
+→ Se ahorran 485,450 kWh de energía
+
+→ Se evitan 25.55 toneladas de emisiones de CO₂
+
+Eso es equivalente a plantar 1,170 árboles. 🏞
+
+Y si reciclamos aceite vegetal usado
+
+→ 1 litro de AVU contamina 1,000 litros de agua
+
+→ Si 500 familias reciclan 1 litro al mes...
+
+→ Estamos salvando 6 MILLONES de litros de agua al año!
+
+No es solo una app. Es un MOVIMIENTO.
+Y vos podés ser parte de esta transformación.
+
 ---
 
 ## Tabla de Contenidos
