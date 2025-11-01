@@ -4,17 +4,6 @@ Una **Progressive Web App (PWA)** moderna diseñada para incentivar la economía
 
 IMPACTO REAL
 ---
-Si solo 1000 personas en Posadas reciclan 1 lata por día...
-
-→ Son 365,000 latas al año
-
-→ Eso equivale a 5,110 kg de aluminio reciclado
-
-→ Se ahorran 485,450 kWh de energía
-
-→ Se evitan 25.55 toneladas de emisiones de CO₂
-
-Eso es equivalente a plantar 1,170 árboles. 🏞
 
 Y si reciclamos aceite vegetal usado
 
