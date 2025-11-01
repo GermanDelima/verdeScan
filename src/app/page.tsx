@@ -26,14 +26,14 @@ export default function Home() {
     {
       number: 1,
       title: "PREPARA Y GENERA TU VALE",
-      description: "Escanea el GTIN de tus latas en casa o juntá tu AVU 'Aceite vegetal usado'. Al llegar al Kiosco o Ecopunto, toca 'Canjear Puntos' en la app. El sistema genera un Token Único (OTC) válido por 15 minutos.",
+      description: "Juntá tu AVU 'Aceite vegetal usado'. Al llegar al Ecopunto, tocá 'Canjear Puntos' en la app. El sistema genera un Token Único (OTC) válido por 60 segundos.",
       icon: QrCode,
       color: "from-blue-500 to-cyan-500"
     },
     {
       number: 2,
       title: "VALIDACIÓN Y ACREDITACIÓN",
-      description: "Mostrá tu Token al referente del kiosco o Ecopunto. Él verifica el material, ingresa el código y, si es válido, recibís tus puntos al instante. El Token se invalida automáticamente. Para evitar su reutilización. ",
+      description: "Mostrá tu Token al referente del Ecopunto. Él verifica el material, ingresa el código y, si es válido, recibís tus puntos al instante. El Token se invalida automáticamente para evitar su reutilización.",
       icon: Zap,
       color: "from-amber-500 to-orange-500"
     },
@@ -74,7 +74,7 @@ export default function Home() {
           <div className="text-center">
             <Badge className="mb-6 bg-white/20 text-white border-white/30 text-lg px-6 py-2 hover:bg-white/30">
               <Sparkles className="mr-2 h-5 w-5" />
-              VerdeScan
+              Progressive Web App (PWA)
             </Badge>
             <h1 className="font-display text-4xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
               Tu Reciclaje ahora vale el doble
@@ -83,7 +83,10 @@ export default function Home() {
               Sistema de Devolución y Recompensa
             </p>
             <p className="mt-3 text-lg text-white/80 max-w-3xl mx-auto">
-              Transformá tu hábito de reciclaje en un acto continuo, colectivo y altamente gratificante
+              Una plataforma moderna diseñada para incentivar la economía circular mediante la recompensa por el correcto reciclaje de aceite de cocina usado (AVU)
+            </p>
+            <p className="mt-2 text-base text-white/70 max-w-2xl mx-auto">
+              Diseño UX responsive adaptado a dispositivos móviles y desktop
             </p>
             <div className="mt-10 flex items-center justify-center gap-6 flex-wrap">
               <Link href="/login">
@@ -220,9 +223,27 @@ export default function Home() {
             <h2 className="font-display text-3xl font-bold tracking-tight sm:text-5xl mb-4">
               ¡Tu barrio puede liderar el cambio!
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Cada punto de reciclaje suma, cada acción cuenta. Seguí el ranking en tiempo real, inspirá a tus vecinos y convertí a tu comunidad en un ejemplo de impacto positivo. 
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-6">
+              Cada punto de reciclaje suma, cada acción cuenta. Seguí el ranking en tiempo real, inspirá a tus vecinos y convertí a tu comunidad en un ejemplo de impacto positivo.
             </p>
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 border-2 border-amber-300 rounded-xl p-8 max-w-4xl mx-auto mt-8 shadow-lg">
+              <Badge className="mb-3 bg-amber-600 text-white text-sm px-4 py-1">
+                Estrategia Integral
+              </Badge>
+              <h3 className="font-bold text-2xl text-amber-900 mb-4">
+                ¿Por qué es tan importante reciclar el aceite de cocina usado?
+              </h3>
+              <p className="text-lg text-amber-900 leading-relaxed mb-4">
+                Según estadísticas, una familia promedio genera entre <strong>700 y 900 mililitros</strong> de aceite de cocina usado al mes.
+                Para contrarrestar este derroche y contaminación ambiental, creamos VerdeScan:
+                una <strong>estrategia integral</strong> que convierte un problema en una oportunidad para toda nuestra comunidad.
+              </p>
+              <div className="bg-white/60 rounded-lg p-4 border border-amber-200">
+                <p className="text-base text-amber-800 italic">
+                  💡 <strong>No llegamos con las manos vacías</strong>, llegamos con toneladas de premios porque en VerdeScan valoramos el esfuerzo de nuestra gente.
+                </p>
+              </div>
+            </div>
           </div>
 
           <Card className="border-2 border-primary/20 shadow-2xl">
@@ -281,25 +302,25 @@ export default function Home() {
                 <Recycle className="h-12 w-12 text-green-600 mx-auto mb-3" />
                 <h3 className="font-bold text-xl mb-2">Economía Circular en Acción</h3>
                 <p className="text-sm text-muted-foreground">
-                  Cada lata, cada litro de AVU, cada punto que sumás es parte de un ciclo que transforma residuos en recursos.
+                  Cada litro de AVU, cada punto que sumás es parte de un ciclo que transforma residuos en recursos.
                 </p>
               </CardContent>
             </Card>
             <Card className="border-2 border-blue-200 bg-blue-50/50 text-center">
               <CardContent className="p-6">
                 <Users className="h-12 w-12 text-blue-600 mx-auto mb-3" />
-                <h3 className="font-bold text-xl mb-2">Poder Vecinal</h3>
+                <h3 className="font-bold text-xl mb-2">Participación Comunitaria</h3>
                 <p className="text-sm text-muted-foreground">
-                  Tu barrio puede liderar el cambio y ser ejemplo de compromiso ambiental.
+                  Trabajamos codo a codo con las comisiones vecinales para llevar nuestra propuesta de recolección a cada rincón de la ciudad.
                 </p>
               </CardContent>
             </Card>
             <Card className="border-2 border-purple-200 bg-purple-50/50 text-center">
               <CardContent className="p-6">
                 <Sparkles className="h-12 w-12 text-purple-600 mx-auto mb-3" />
-                <h3 className="font-bold text-xl mb-2">Compromiso Barrial</h3>
+                <h3 className="font-bold text-xl mb-2">Recompensas Reales</h3>
                 <p className="text-sm text-muted-foreground">
-                  Más participación, más conciencia, más impacto positivo en la ciudad.
+                  No llegamos con las manos vacías, llegamos con toneladas de premios porque en VerdeScan valoramos el esfuerzo de nuestra gente.
                 </p>
               </CardContent>
             </Card>
